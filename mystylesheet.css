@@ -3,8 +3,69 @@
     
 }
 
-            body {
-    background-color: #001a33;
-    color: white;
-    
+footer{
+	background-color: black;
+	clear:both;
+	text-align:center;
+	color:white;
+}
+
+/* unvisited link */
+a:link{
+	color:black;
+}
+/* visited link */
+a:visited{
+	color:green;
+}
+/* mouse over link */
+a:hover{
+	color:red;
+}
+/* selected link */
+a:active{
+	color:pink;
+}
+
+body {
+	background-color: black;
+	
+}
+
+#container {
+	background-color: grey;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+#content {
+	padding: 10px 10px 10px 10px;
+}
+
+#nav {
+	width: 180px;
+	float: left;
+}
+
+#main {
+	width: 600px;
+	float: right;
+}
+
+#footer {
+	background-color: black;
+	clear:both;
+	text-align:center;
+	color:white;
+}
+
+#pagenav {
+	clear: both;
 }
