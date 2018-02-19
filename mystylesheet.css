@@ -29,6 +29,7 @@ a:active{
 
 body {
 	background-color: black;
+	padding-top: 120px;
 	
 }
 
@@ -43,15 +44,16 @@ body {
 	background-color: black;
 	color: white;
 	text-align: center;
+	top:0;
 }
 
 #content {
-	padding: 10px 10px 10px 10px;
+	padding: 10px 50px 100px 100px;
 }
 
 #main {
 	width: 600px;
-	float: right;
+  text-align:center;
 	
 }
 
@@ -64,11 +66,16 @@ body {
 
 #pagenav {
 	clear: both;
+	text-align: center;
 }
 
 .topnav {
     background-color: black;
     overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
 }
 
 .topnav a {
@@ -89,3 +96,31 @@ body {
   background-color: #4CAF50;
   color: white;
 }
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+button {
+  font: 14px "Trebuchet MS", sans-serif;
+}
+
+.button {
+  padding: 8px 16px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 3px;
+  
+}
+
+.button-primary {
+  background:#ccc;
+  color:#fff;
+
+}
+
+.button-primary:hover {
+  background:lightslategrey;
+}
+
