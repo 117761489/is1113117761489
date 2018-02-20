@@ -1,35 +1,11 @@
 .mainheading{
-    text-align: center;
+    width: 100%;
     
-}
-
-footer{
-	background-color: black;
-	clear:both;
-	text-align:center;
-	color:white;
-}
-
-/* unvisited link */
-a:link{
-	color:black;
-}
-/* visited link */
-a:visited{
-	color:green;
-}
-/* mouse over link */
-a:hover{
-	color:red;
-}
-/* selected link */
-a:active{
-	color:green;
 }
 
 body {
 	background-color: black;
-	padding-top: 120px;
+	padding-top: 20px;
 	
 }
 
@@ -41,19 +17,18 @@ body {
 }
 
 #header {
-	background-color: black;
-	color: white;
+	color: black;
 	text-align: center;
 	top:0;
 }
 
 #content {
-	padding: 10px 50px 100px 100px;
+	padding: 0px 50px 100px 100px;
 }
 
 #main {
 	width: 600px;
-  text-align:center;
+    text-align:center;
 	
 }
 
