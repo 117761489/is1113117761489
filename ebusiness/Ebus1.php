@@ -6,12 +6,26 @@
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
+        
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css">
 
     </head>
     
     <body>
-        
+        <div id="container">
+        <div id="nav" class="topnav">
+    			<a href="../homepage.html">Home</a>
+    			<a href="../cv/cv_page1.html">CV</a>
+          <a href="../interests/sports.html">Interests</a>
+          <a class="active" href="ebusiness/EbusHome.html">EBusiness</a>
+          <a href="ebusiness/Ebus1.php" float="right">Store</a>
+  		  </div>
+          
+        <div id="content">
+  		  <div id="main">
+  		    <div id ="header">
             <h4>Select a Product</h4>
+          </div>
             
             <br/>
             
@@ -53,7 +67,8 @@
             <br/>
             <button onClick="calcSub()">Calculate Cost</button>
             <a role="button" href="Ebus1.php">Clear Choice</a>
-            
-    
+    </div>
+    </div>
+    </div>
     </body>
 </html>

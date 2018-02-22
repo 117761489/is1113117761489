@@ -6,8 +6,20 @@ session_start();
 <html>
     <head>
         <title>Receipt</title>
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css">
     </head>
     
+    <div id="container">
+        <div id="nav" class="topnav">
+        	<a href="../homepage.html">Home</a>
+        	<a href="../cv/cv_page1.html">CV</a>
+            <a href="../interests/sports.html">Interests</a>
+            <a class="active" href="ebusiness/EbusHome.html">EBusiness</a>
+            <a href="ebusiness/Ebus1.php" float="right">Store</a>
+  	    </div>
+  	    
+  	<div id="content">
+  	<div id="main">
     <body>
         <h4>Receipt</h4>
         
@@ -16,4 +28,8 @@ session_start();
         echo "Total is " . $_SESSION["total"] . ".";
         ?>
     </body>
+    
+    </div>
+    </div>
+    </div>
 </html>
