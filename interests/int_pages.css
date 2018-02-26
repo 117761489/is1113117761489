@@ -1,16 +1,37 @@
 #section1{
-    background-color: rgb(238, 0, 90);
+    background-image: url("../images/spain.png");
+    background-size: cover;
 }
 
 #section2{
-    background-color: rgb(44, 62, 80);
+    background-image: url("../images/Boston.jpg");
+    background-size: cover;
 }
 
 #section3{
-    background-color: rgb(51, 153, 204);
+    background-image: url("../images/Cork.jpg");
+    background-size: cover;
+}
+
+#section4{
+    background-image: url("../images/cloud.jpg");
+    background-size: cover;
+}
+
+#section5{
+    background-image: url("../images/cloud.jpg");
+    background-size: cover;
+    text-decoration: none;
+}
+
+#section6{
+    background-image: url("../images/cloud.jpg");
+    background-size: cover;
+    text-decoration: none;
 }
 
 .section{
     text-align: center;
-    color: white;
+    color: black;
+    text-decoration: underline;
 }
