@@ -48,7 +48,7 @@ body {
     background-color: black;
     overflow: hidden;
     position: fixed;
-    width: 100%;
+    width: 800px;
     top: 0;
     
 }
@@ -76,6 +76,18 @@ body {
   overflow: hidden;
   background-color: #333;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
 
 button {
   font: 14px "Trebuchet MS", sans-serif;

@@ -1,10 +1,10 @@
 #section1{
-    background-image: url("../images/spain.png");
+    background-image: url("../images/manchester.jpg");
     background-size: cover;
 }
 
 #section2{
-    background-image: url("../images/Boston.jpg");
+    background-image: url("../images/boston.jpg");
     background-size: cover;
 }
 
@@ -32,6 +32,14 @@
 
 .section{
     text-align: center;
-    color: black;
+    color: white;
     text-decoration: underline;
+}
+
+.section li{
+    float: none;
+}
+
+.section ul{
+    list-style-type: none;
 }
