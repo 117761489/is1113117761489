@@ -11,12 +11,13 @@ session_start();
     
     <div id="container">
         <div id="nav" class="topnav">
-        	<a href="../homepage.html">Home</a>
-        	<a href="../cv/cv_page1.html">CV</a>
-            <a href="../interests/sports.html">Interests</a>
-            <a class="active" href="ebusiness/EbusHome.html">EBusiness</a>
-            <a href="ebusiness/Ebus1.php" float="right">Store</a>
-  	    </div>
+            <ul>
+  			    <li><a href="EBusHome.html">Home</a></li>
+  			    <li><a class="active" href="../ebusiness/EBusAbout.html">About</a></li>
+                <li><a href="../ebusiness/Ebus1.php">Store</a></li>
+                <li style="float:right"><a href="../homepage.html">CV</a></li>
+            </ul>
+        </div>
   	    
   	<div id="content">
   	<div id="main">
@@ -25,7 +26,7 @@ session_start();
         
         <?php
         //Echo session variables that were set on the previous page
-        echo "Total is " . $_SESSION["total"] . ".";
+        echo "Total is $" . $_SESSION["total"] . ".";
         ?>
     </body>
     
