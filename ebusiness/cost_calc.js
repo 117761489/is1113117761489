@@ -19,6 +19,7 @@ function calcSub(){
     display(argSubTotal);
 }
 
+
 function display(parm1){
   
   document.getElementById("subtotal").value = parm1;

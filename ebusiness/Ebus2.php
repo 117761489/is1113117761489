@@ -99,7 +99,7 @@ session_start();
             // Set session variables
             $_SESSION["total"] = $_POST["total"]
             ?>
-        
+            
         <script type="text/javascript" src="ebus2_validator.js"></script>
         
         </div>

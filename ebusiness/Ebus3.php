@@ -22,12 +22,13 @@ session_start();
   	<div id="content">
   	<div id="main">
     <body>
-        <h4>Receipt</h4>
+        <h3>Receipt</h3>
         
         <?php
         //Echo session variables that were set on the previous page
-        echo "Total is $" . $_SESSION["total"] . ".";
+        echo "Total is: $" . $_SESSION["total"] . ".";
         ?>
+        
     </body>
     
     </div>
