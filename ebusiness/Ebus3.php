@@ -22,16 +22,27 @@ session_start();
   	<div id="content">
   	<div id="main">
     <body>
-        <h3>Receipt</h3>
+        
+        <br/><br/>
+        <br/><br/>
+        
+        <h2>Receipt</h2>
         
         <?php
         //Echo session variables that were set on the previous page
-        echo "Total is: $" . $_SESSION["total"] . ".";
+        echo "<strong>Name: </strong>" . $_POST["name"] . ". <br/><br/>";
+        echo "<strong>Email Address: </strong>" . $_POST["email"] . ". <br/><br/>";
+        echo "<strong>Total is:</strong> $" . $_SESSION["total"] . ".";
         ?>
         
     </body>
     
     </div>
     </div>
+            
+        <div id="footer">
+            <footer> Copyright &copy; Daniel Crowley (117761489) </footer>
+        </div>
+        
     </div>
 </html>

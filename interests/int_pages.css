@@ -1,6 +1,7 @@
 #section1{
     background-image: url("../images/manchester.jpg");
     background-size: cover;
+    color: black;
 }
 
 #section2{
@@ -34,6 +35,7 @@
     text-align: center;
     color: white;
     text-decoration: underline;
+    font-size: 20px;
 }
 
 .section li{

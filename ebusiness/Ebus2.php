@@ -64,20 +64,24 @@ session_start();
   		  <div id="main">
   		    
   		    <div id ="header">
-                <h4>Please enter your payment details</h4>
+  		        
+  		        <br/><br/>
+                <br/><br/>
+                
+                <h2>Please enter your payment details</h2>
             </div>
         
         
             <form action="Ebus3.php" method="POST">
 
                     <label for="name">Full Name</label>
-                    <input type="text" id="name" placeholder="Full Name" maxlength="40">
+                    <input type="text" id="name" name="name" placeholder="Full Name" maxlength="40">
 
                     <br/>
                     <br/>
                     
                     <label for="email">E-Mail Address</label>
-                    <input type="text" id="email" placeholder="E-Mail Address" maxlength="40">
+                    <input type="text" id="email" name="email" placeholder="E-Mail Address" maxlength="40">
                     
                     <br/>
                     <br/>
@@ -104,6 +108,11 @@ session_start();
         
         </div>
         </div>
+                
+        <div id="footer">
+            <footer> Copyright &copy; Daniel Crowley (117761489) </footer>
+        </div>
+        
         </div>
     </body>
 </html>

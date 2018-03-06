@@ -30,6 +30,10 @@
                 border-radius: 4px;
                 cursor: pointer;
             }
+            
+            .table {
+              padding: 0;
+            }
 
         </style>
 
@@ -49,41 +53,57 @@
         <div id="content">
   		  <div id="main">
   		    <div id ="header">
-            <h4>Select a Product</h4>
+  		      
+  		      <br/><br/>
+            <br/><br/>
+            
+            <h2>Select a Product</h2>
           </div>
-
-            <br/>
-
+            
             <form method="POST" action="Ebus2.php">
-
+              
+              <table align="center">
+              
+              <tr><td></td></tr>
+              
+              <tr>
               <label for="salesforce">
-                <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-                SalesForce @ $100
+              <td><input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/></td>
+              <td>SalesForce @ $100</td>
               </label>
-
-              <br/>
-
+              </tr>
+              
+              <tr><td></td></tr>
+              
+              <tr>
               <label for="aws">
-                <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-                AWS @ $300
+              <td><input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/></td>
+              <td>AWS @ $300</td>
               </label>
-
-              <br/>
-
+              </tr>
+              
+              <tr><td></td></tr>
+              
+              <tr>
               <label for="Cloud9">
-                <input type="radio" id="Cloud9" name="product" onclick="disablebtnProceed()"/>
-                Cloud9 @ $200
+              <td><input type="radio" id="Cloud9" name="product" onclick="disablebtnProceed()"/></td>
+              <td>Cloud9 @ $200</td>
               </label>
+              </tr>
               
-              <br/>
+              <tr><td></td></tr>
               
+              <tr>
               <label for="Gmail">
-                <input type="radio" id="Gmail" name="product" onclick="disablebtnProceed()"/>
-                Gmail @ $400
+              <td><input type="radio" id="Gmail" name="product" onclick="disablebtnProceed()"/></td>
+              <td>Gmail @ $400</td>
               </label>
-
-              <br/>
-              <br/>
+              </tr>
+              
+              </table>
+                
+              <br/><br/>
+              <br/><br/>
 
               <label for="subtotal">
                 Sub Total
@@ -92,6 +112,25 @@
               </label>
 
               <br/>
+              <br/>
+              
+              <label for="discount">
+                Discount @ 5%
+                <br/>
+                <input type="text" id="discount" name="discount" value="0.00" readonly/>
+              </label>
+              
+              <br/>
+              <br/>
+              
+              <label for="vat">
+                VAT @ 10%
+                <br/>
+                <input type="text" id="vat" name="vat" value="0.00" readonly/>
+              </label>
+              
+              <br/>
+              <br/>
 
               <label for="total">
                 Total
@@ -99,18 +138,28 @@
                 <input type="text" id="total" name="total" value="0.00" readonly/>
               </label>
 
-              <br/>
+              <br/><br/>
+              <br/><br/>
 
               <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
 
             </form>
 
             <br/>
+            
             <button onClick="calcSub()">Calculate Cost</button>
+            
             <br/>
+            <br/>
+            
             <a role="button" href="Ebus1.php">Clear Choice</a>
     </div>
     </div>
+        
+        <div id="footer">
+            <footer> Copyright &copy; Daniel Crowley (117761489) </footer>
+        </div>
+        
     </div>
     </body>
 </html>
